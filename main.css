@@ -1,0 +1,244 @@
+.navbar-brand img {width: 70%;
+height: 100%;
+
+}
+
+.nav-item{
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+
+footer {
+    padding-top: 5px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: auto;
+    background-color:antiquewhite;
+    
+}
+body{
+    background-color: #EEEAE6;
+}
+
+.card {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 3px 24px -5px grey;
+
+}
+
+.card-title{
+    font-weight: bolder;
+    color: #99B456;
+    
+}
+
+.card-subtitle{
+    color: rgb(52, 56, 51);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.card-text{
+    color: rgb(114, 122, 112);
+}
+
+.topImgDest{
+    background-image: url(images/destinations-top.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 2500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    	padding-top: 10em;
+	padding-bottom: 10em;
+    z-index: -100;
+
+}
+
+.topImgContact{
+    background-image: url(images/contact-top.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 2500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-top: 10em;
+	padding-bottom: 10em;
+    z-index: -100;
+
+}
+
+
+.chooseAdv{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #99B456;
+    font-size: 35px;
+    
+
+}
+
+.fotorama{
+display: flex;
+justify-content: center;}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) #are{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+     margin-top: 50px;
+    
+}
+
+#Are{background-color: whitesmoke;}
+
+
+.topImgAre{
+    background-image: url(images/arequipa/arequipa-top.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 2500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    	padding-top: 10em;
+	padding-bottom: 10em;
+    z-index: -100;
+
+}
+
+.topImgMachu{
+    background-image: url(images/machupicchu/top.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 2500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    	padding-top: 10em;
+	padding-bottom: 10em;
+    z-index: -100;
+
+}
+
+
+.topImgAmazon{
+    background-image: url(images/amazon/top.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 2500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    	padding-top: 10em;
+	padding-bottom: 10em;
+    z-index: -100;
+
+}
+
+
+
+.areOver{max-height: 80%;
+max-width: 80%;}
+
+#rubik{font-family: 'Rubik', sans-serif;
+text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.display-7{color: darkolivegreen;}
+
+.display-6{text-align: right;
+font-size: 22px;
+font-weight: 600;}
+
+.warning{text-align: center;
+margin-bottom: 10px;}
+
+
+@media (min-width: 320px) and (max-width: 480px) .card {}
+
+
+
+
+/*Styling the FORM*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.formwrapper {
+
+    
+    position: relative;
+    top: 202px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1);
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+.formwrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+
+}
+
+.formwrapper .input_field{
+    margin-bottom: 10px;
+    
+}
+
+.formwrapper .input_field input[type="text"],
+.wrapper textarea {
+    width: 100%;
+    border: 1px solid  #e0e0e0; 
+    padding: 10px;
+}
+
+
+
+.formwrapper .btn input[type="submit"]{
+    border:0;
+    margin-top: 15px;
+    padding: 15px;
+    width:280px;
+    background: #fece0c;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.formwrapper #error_message{
+    
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    
+}
+
+
